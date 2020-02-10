@@ -4,6 +4,11 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anpleenko/react-typescript-styled-components.git"
+  },
+  "license": "GNU General Public License (GPL)",
   "dependencies": {
     "@openfonts/roboto_cyrillic": "1.44.0",
     "core-js": "3.6.4",
@@ -29,8 +34,9 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.3.0",
     "husky": "^4.2.1",
+    "imagemin-lint-staged": "^0.4.0",
+    "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
     "typescript": "3.7.5"
   },
   "scripts": {
