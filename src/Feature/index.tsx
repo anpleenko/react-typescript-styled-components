@@ -1,5 +1,6 @@
-import * as React from 'react';
+import React, { FC } from 'react';
+import { FeatureProps } from './interfaces';
 
-export default function Feature() {
-  return <div>feature</div>;
-}
+export const Feature: FC<FeatureProps> = () => {
+  return <div>FC</div>;
+};
