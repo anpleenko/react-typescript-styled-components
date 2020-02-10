@@ -1,12 +1,12 @@
-import * as React from "react";
-import "@openfonts/roboto_cyrillic";
-import "core-js";
-import "regenerator-runtime/runtime";
+import * as React from 'react';
+import '@openfonts/roboto_cyrillic';
+import 'core-js';
+import 'regenerator-runtime/runtime';
 
-import { createGlobalStyle } from "styled-components";
-import { normalize } from "styled-normalize";
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
 
-import Feature from "./Feature";
+import Feature from './Feature';
 
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
