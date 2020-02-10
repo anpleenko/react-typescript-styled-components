@@ -4,7 +4,7 @@ import 'core-js';
 import 'regenerator-runtime/runtime';
 
 import Feature from './Feature';
-import { GlobalStyle } from './globalStyles';
+import GlobalStyle from './globalStyles';
 
 export default function App() {
   return (
