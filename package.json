@@ -49,8 +49,6 @@
     "imagemin-lint-staged": "^0.4.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "prettier-eslint": "^9.0.1",
-    "prettier-eslint-cli": "^5.0.0",
     "sort-package-json": "^1.39.1",
     "typescript": "3.7.5"
   }
