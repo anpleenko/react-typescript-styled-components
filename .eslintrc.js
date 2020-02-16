@@ -17,7 +17,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/react',
   ],
-  plugins: ['@typescript-eslint', 'jest', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'jest', 'jsx-a11y', 'prettier', 'react', 'react-hooks', 'import'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -32,11 +32,26 @@ module.exports = {
     es6: true,
     jest: true,
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src'],
+      },
+    },
+  },
   rules: {
     'prettier/prettier': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always',
+      },
+    ],
   },
 };
