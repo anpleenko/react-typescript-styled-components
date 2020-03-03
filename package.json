@@ -1,11 +1,11 @@
 {
-  "name": "react-typescript-styled-components",
+  "name": "react-typescript-styled-component-template",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/anpleenko/react-typescript-styled-components.git"
+    "url": "git://github.com/anpleenko/react-typescript-styled-component-template.git"
   },
   "license": "MIT",
   "main": "src/index.tsx",
