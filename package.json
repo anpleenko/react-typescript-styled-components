@@ -12,7 +12,8 @@
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .tsx,.ts src/",
+    "lint:code": "eslint --ext .tsx,.ts src/",
+    "lint:types": "tsc --noEmit",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   },

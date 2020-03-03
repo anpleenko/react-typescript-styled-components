@@ -41,6 +41,7 @@ module.exports = {
     },
   },
   rules: {
+    'react/prop-types': 'off',
     'prettier/prettier': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
