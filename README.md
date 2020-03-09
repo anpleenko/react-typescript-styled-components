@@ -1,6 +1,4 @@
-<h1 align="center">react-typescript-styled-component-template</h1>
-
-template repo
+<h1 align="center">React typescript styled-component template</h1>
 
 <div align="center">
   
