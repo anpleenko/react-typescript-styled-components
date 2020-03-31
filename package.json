@@ -54,7 +54,7 @@
     "eslint-plugin-react-hooks": "2.5.1",
     "husky": "4.2.3",
     "imagemin-lint-staged": "0.4.0",
-    "lint-staged": "10.0.9",
+    "lint-staged": "10.1.0",
     "prettier": "1.19.1",
     "sort-package-json": "1.40.0",
     "typescript": "3.8.3"
