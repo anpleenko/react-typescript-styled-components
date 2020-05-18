@@ -24,7 +24,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "@openfonts/roboto_cyrillic": "1.44.0",
+    "@openfonts/roboto_cyrillic": "1.44.1",
     "@testing-library/jest-dom": "5.5.0",
     "@testing-library/react": "10.0.1",
     "core-js": "3.6.5",
