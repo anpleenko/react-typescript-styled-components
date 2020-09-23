@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@openfonts/roboto_cyrillic": "1.44.1",
-    "@testing-library/jest-dom": "5.11.0",
+    "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "10.4.4",
     "@testing-library/user-event": "12.1.5",
     "core-js": "3.6.5",
@@ -57,6 +57,6 @@
     "lint-staged": "10.3.0",
     "prettier": "2.1.2",
     "sort-package-json": "1.46.0",
-    "typescript": "3.9.7"
+    "typescript": "4.0.2"
   }
 }
