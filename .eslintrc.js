@@ -17,7 +17,16 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/react',
   ],
-  plugins: ['@typescript-eslint', '@typescript-eslint/tslint', 'jest', 'jsx-a11y', 'prettier', 'react', 'react-hooks', 'import'],
+  plugins: [
+    '@typescript-eslint',
+    '@typescript-eslint/tslint',
+    'jest',
+    'jsx-a11y',
+    'prettier',
+    'react',
+    'react-hooks',
+    'import',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
