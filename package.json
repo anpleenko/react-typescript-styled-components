@@ -27,7 +27,7 @@
     "@openfonts/roboto_cyrillic": "1.44.1",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.1.2",
-    "@testing-library/user-event": "13.2.1",
+    "@testing-library/user-event": "13.3.0",
     "core-js": "3.18.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
