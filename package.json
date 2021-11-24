@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@openfonts/roboto_cyrillic": "1.44.1",
-    "@testing-library/jest-dom": "5.15.0",
+    "@testing-library/jest-dom": "5.15.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
     "core-js": "3.19.1",
