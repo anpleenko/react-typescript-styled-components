@@ -1,0 +1,4 @@
+# Configuration for probot-auto-merge - https://github.com/bobvanderlinden/probot-auto-merge
+
+minApprovals:
+  OWNER: 1
